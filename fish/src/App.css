@@ -1,0 +1,53 @@
+.app {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vh 5vw;
+  box-shadow: 0 2px 5px black;
+}
+
+.modal {
+  position: fixed;
+  z-index: 2;
+  top: 20vh;
+  width: 60vw;
+  left: 20vw;
+  padding: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: lightgrey;
+  box-sizing: border-box;
+}
+
+.close-modal {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.fish-page button {
+  margin: 5vh 0;
+}
+
+form {
+  width: 60%;
+  margin: 1vh auto;
+  padding: 50px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input {
+  width: 95%;
+}
+
+input[type='submit'] {
+  margin-top: 3vh;
+  width: 50%;
+  border: 2px solid black;
+}
